@@ -2,8 +2,8 @@ const currentImports = {};
       const exportSet = new Set(['Module', '__esModule', 'default', '_export_sfc']);
       let moduleMap = {
 "./ListeView":()=>{
-      dynamicLoadingCss(["style-D96VmqlJ.css"], false, './ListeView');
-      return __federation_import('./__federation_expose_ListeView-B__ZVIDl.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
+      dynamicLoadingCss(["style-CuivL4I_.css"], false, './ListeView');
+      return __federation_import('/applist-dist/assets/__federation_expose_ListeView-umwxsYqN.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
       const seen = {};
       const dynamicLoadingCss = (cssFilePaths, dontAppendStylesToHead, exposeItemName) => {
         const metaUrl = import.meta.url;
@@ -13,7 +13,7 @@ const currentImports = {};
         }
 
         const curUrl = metaUrl.substring(0, metaUrl.lastIndexOf('remoteEntry.js'));
-        const base = '/';
+        const base = '/applist-dist/';
         'assets';
 
         cssFilePaths.forEach(cssPath => {
