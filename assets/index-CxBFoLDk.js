@@ -31,12 +31,6 @@ true              &&(function polyfill() {
 	}
 }());
 
-const {ref} = await importShared('vue');
-
-const {unref:_unref,createElementVNode:_createElementVNode,normalizeStyle:_normalizeStyle,openBlock:_openBlock,createElementBlock:_createElementBlock,createCommentVNode:_createCommentVNode,createStaticVNode:_createStaticVNode} = await importShared('vue');
-
-const {onMounted} = await importShared('vue');
-
 const {createApp} = await importShared('vue');
 
 createApp(App).mount('#app');
