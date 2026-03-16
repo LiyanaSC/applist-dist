@@ -1,56 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap');
-.list-sidebar[data-v-51e5599f] {
-  min-height: 100vh;
-  min-width: 350px;
-  max-width: 500px;
-  width: 50%;
-
-  background-color: var(--deep-violet);
-  display: flex;
-  flex-direction: column;
-  padding-top: 1rem;
-  transition: width 0.3s ease;
-  overflow: hidden;
-  z-index: 1;
-}
-h2[data-v-51e5599f] {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--lither-lavender);
-  padding: 1rem;
-  border-bottom: 1px solid var(--lavender);
-}
-
-
-.list-results[data-v-0ba65835] {
-  padding-top: 1rem;
-
-  background-color: var(--lither-lavender);
-  width: 100%;
-  min-height: 100vh;
-}
-
-
-.app-liste[data-v-ad725d67] {
-  width: 90%;
-  border-radius: 30px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-}
-.logo[data-v-ad725d67] {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo[data-v-ad725d67]:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue[data-v-ad725d67]:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-
 
 
 /* j'importe les fonts depuis google fonts */
@@ -244,4 +192,55 @@ h2{
 }
 .low-opacity{
   opacity:0.5
+}
+.list-sidebar[data-v-51e5599f] {
+  min-height: 100vh;
+  min-width: 350px;
+  max-width: 500px;
+  width: 50%;
+
+  background-color: var(--deep-violet);
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  z-index: 1;
+}
+h2[data-v-51e5599f] {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--lither-lavender);
+  padding: 1rem;
+  border-bottom: 1px solid var(--lavender);
+}
+
+
+.list-results[data-v-0ba65835] {
+  padding-top: 1rem;
+
+  background-color: var(--lither-lavender);
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+.app-liste[data-v-ad725d67] {
+  width: 90%;
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.logo[data-v-ad725d67] {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo[data-v-ad725d67]:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vue[data-v-ad725d67]:hover {
+  filter: drop-shadow(0 0 2em #42b883aa);
 }
