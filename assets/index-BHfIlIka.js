@@ -1,7 +1,7 @@
 import { importShared } from './__federation_fn_import-dmqIiFee.js';
 import ListeView, { _ as _export_sfc } from './__federation_expose_ListeView-wKvfqCt9.js';
 
-const {createVNode:_createVNode,openBlock:_openBlock,createElementBlock:_createElementBlock} = await importShared('vue');
+const {createElementVNode:_createElementVNode,createVNode:_createVNode,openBlock:_openBlock,createElementBlock:_createElementBlock} = await importShared('vue');
 
 
 const _hoisted_1 = { class: "app-liste" };
@@ -19,13 +19,14 @@ document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'ligh
 
 return (_ctx, _cache) => {
   return (_openBlock(), _createElementBlock("div", _hoisted_1, [
+    _cache[0] || (_cache[0] = _createElementVNode("h1", null, "Title test", -1)),
     _createVNode(ListeView)
   ]))
 }
 }
 
 };
-const App = /*#__PURE__*/_export_sfc(_sfc_main, [['__scopeId',"data-v-066dc6e1"]]);
+const App = /*#__PURE__*/_export_sfc(_sfc_main, [['__scopeId',"data-v-27f41f3c"]]);
 
 const {createApp} = await importShared('vue');
 

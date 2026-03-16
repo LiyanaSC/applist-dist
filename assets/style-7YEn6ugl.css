@@ -193,22 +193,22 @@ h2{
 .low-opacity{
   opacity:0.5
 }
-.app-liste[data-v-066dc6e1] {
+.app-liste[data-v-27f41f3c] {
   width: 90%;
   border-radius: 30px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
 }
-.logo[data-v-066dc6e1] {
+.logo[data-v-27f41f3c] {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
-.logo[data-v-066dc6e1]:hover {
+.logo[data-v-27f41f3c]:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.vue[data-v-066dc6e1]:hover {
+.logo.vue[data-v-27f41f3c]:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
