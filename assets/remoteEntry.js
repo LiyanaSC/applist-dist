@@ -3,7 +3,7 @@ const currentImports = {};
       let moduleMap = {
 "./mount":()=>{
       dynamicLoadingCss(["style-BP5T5C-q.css"], false, './mount');
-      return __federation_import('/applist-dist/assets/__federation_expose_Mount-k54kvwJd.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
+      return __federation_import('/applist-dist/assets/__federation_expose_Mount-C9kh2y8a.js').then(module =>Object.keys(module).every(item => exportSet.has(item)) ? () => module.default : () => module)},};
       const seen = {};
       const dynamicLoadingCss = (cssFilePaths, dontAppendStylesToHead, exposeItemName) => {
         const metaUrl = import.meta.url;
